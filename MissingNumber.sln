@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingNumber", "MissingNumber\MissingNumber.csproj", "{B536298E-CF39-4159-BAE1-09FAE328D1A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingNumber.UnitTest", "MissingNumber.UnitTest\MissingNumber.UnitTest.csproj", "{D404C4C0-D00D-42D8-B615-4ACFC7A2697D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B536298E-CF39-4159-BAE1-09FAE328D1A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B536298E-CF39-4159-BAE1-09FAE328D1A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B536298E-CF39-4159-BAE1-09FAE328D1A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B536298E-CF39-4159-BAE1-09FAE328D1A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D404C4C0-D00D-42D8-B615-4ACFC7A2697D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D404C4C0-D00D-42D8-B615-4ACFC7A2697D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D404C4C0-D00D-42D8-B615-4ACFC7A2697D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D404C4C0-D00D-42D8-B615-4ACFC7A2697D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
