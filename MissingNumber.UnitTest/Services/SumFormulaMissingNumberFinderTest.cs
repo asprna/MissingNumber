@@ -3,7 +3,7 @@
 namespace MissingNumber.UnitTest.Services;
 
 [TestClass]
-public sealed class SumFormulaMissingNumberFindTest() : MissingNumberFindSpecification("Sum")
+public sealed class SumFormulaMissingNumberFinderTest() : MissingNumberFinderSpecification("Sum")
 {
     [DataTestMethod]
     [DataRow(new int[] { 3, 0, 1 }, 2)]

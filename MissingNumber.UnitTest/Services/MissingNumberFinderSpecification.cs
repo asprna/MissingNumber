@@ -3,7 +3,7 @@ using MissingNumber.Services;
 
 namespace MissingNumber.UnitTest.Services;
 
-public abstract class MissingNumberFindSpecification(string impl)
+public abstract class MissingNumberFinderSpecification(string impl)
 {
     protected readonly IMissingNumberFinder MissingNumberFinder = impl switch
     {

@@ -20,7 +20,7 @@ Given an array of `n` distinct integers where each number is in the range `0` to
 We use the **Sum Formula approach**, which is based on the mathematical formula for the sum of the first `n` natural numbers:
 
 \[
-\text{Expected Sum} = \frac{n(n + 1)}{2}
+\Expected Sum = n * (n+1) / 2
 \]
 
 - Let `n` be the **length** of the input array.
@@ -28,7 +28,7 @@ We use the **Sum Formula approach**, which is based on the mathematical formula 
 - Subtract the actual sum from the expected sum:
 
 \[
-\text{Missing Number} = \text{Expected Sum} - \text{Actual Sum}
+\Missing Number = Expected Sum - Actual Sum
 \]
 
 ---
@@ -51,7 +51,7 @@ The solution includes validation to ensure input integrity:
 ### Run the Console App
 
 ```bash
-dotnet run --project MissingNumberApp
+dotnet run --project MissingNumber
 ```
 
 ### Run Unit Tests
